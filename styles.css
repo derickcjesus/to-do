@@ -5,12 +5,27 @@
 }
 
 .container {
+    background-color: darkgrey;
     height: 100vh;
     width: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+#app ul li {
+    font-family: 'Roboto', sans-serif;
+}
+
+#app ul li a {
+    margin-left: 8px;
+    color: #d62828;
+    font-size: 14px;
+}
+
+section {
+    margin-top: 16px;
 }
 
 #write {

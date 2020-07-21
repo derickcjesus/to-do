@@ -2,11 +2,7 @@ var list = document.querySelector("#app ul");
 var input = document.querySelector("#write")
 var btn = document.querySelector("#button")
 
-var todos = [
-    "fazer café",
-    "codar",
-    "beber água"
-];
+var todos = [];
 
 
 function renderList(){
